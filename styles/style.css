@@ -63,3 +63,43 @@ body {
 
 
 
+/* Offer */
+#offer{
+  margin-bottom: 120px;
+}
+
+#offer .sec_container{
+  align-items: center;
+  text-align: center;
+}
+
+#offer .sec_container h1{
+  color: #F00;
+  font-family: Inter;
+  font-size: 75px;
+  font-weight: 700;
+  margin-bottom: 29px;
+}
+
+#offer .sec_container p{
+  color: #F00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+#offer .sec_container h3{
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 43px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+#offer .sec_container img{
+  width: 755px;
+}
+
