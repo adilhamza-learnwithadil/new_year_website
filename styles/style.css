@@ -522,3 +522,69 @@ input::placeholder{
 }
 
 
+
+
+
+/* Footer */
+.bg_coler{
+  background-color: #070211;
+}
+
+.white{
+  color: white;
+}
+
+.contact{
+  max-width: 170%;
+  width: 1320px;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.con_adress{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.add{
+  width: 350px;
+}
+
+hr{
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.contac_me{
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.footer_con{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: block;
+}
+
+
+.social{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.social img{
+  width: 50px;
+}
+
+.con a{
+  text-decoration: none;
+}
