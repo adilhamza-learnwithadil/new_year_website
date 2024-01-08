@@ -10,6 +10,19 @@ body {
   font-family: 'Merriweather', serif;
 }
 
+.head{
+  color: #F00;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+
+.black{
+  color: #070211;
+}
+
 /* Header */
 #header{
   margin-top: 50px;
@@ -229,13 +242,7 @@ body {
 }
 
 
-.coming_text h3{
-  color: #F00;
-  font-family: Inter;
-  font-size: 20px;
-  font-weight: 500;
-  text-transform: uppercase;
-}
+
 
 .coming_text h1{
   color: #070211;
@@ -283,4 +290,73 @@ body {
   align-items: center;
   display: flex;
   justify-content: center;
+}
+
+
+
+
+
+/* Holidays Sale */
+.sale{
+  align-items: center;
+  justify-content: center;
+}
+
+.sale_head{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.sale_head h1{
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 52px;
+  font-weight: 900;
+  margin-top: 16px;
+  margin-bottom: 23px;
+}
+
+.sale_head h1 span{
+  color: #F00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.sale_head p{
+  width: 800px;
+  color: rgba(7, 2, 17, 0.60);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  display: flex;
+}
+
+
+.offer{
+  margin-top: -370px;
+  margin-left: -150px;
+}
+.women_offer{
+  float: right;
+  margin-bottom: 50px;
+}
+
+.sale_img{
+  margin-bottom: 120px;
+}
+
+.serprise_box img{
+  width: 700px;
+}
+
+.serprise_box{
+  margin-top: -700px;
 }
