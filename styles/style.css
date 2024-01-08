@@ -23,6 +23,48 @@ body {
   color: #070211;
 }
 
+
+.text_head{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.text_head h1{
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 52px;
+  font-weight: 900;
+  margin-top: 16px;
+  margin-bottom: 23px;
+}
+
+.text_head h1 span{
+  color: #F00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.text_head p{
+  width: 800px;
+  color: rgba(7, 2, 17, 0.60);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  display: flex;
+}
+
+
+
+
+
 /* Header */
 #header{
   margin-top: 50px;
@@ -302,42 +344,6 @@ body {
   justify-content: center;
 }
 
-.sale_head{
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 100px;
-}
-
-.sale_head h1{
-  color: #070211;
-  font-family: Merriweather;
-  font-size: 52px;
-  font-weight: 900;
-  margin-top: 16px;
-  margin-bottom: 23px;
-}
-
-.sale_head h1 span{
-  color: #F00;
-  text-align: center;
-  font-family: Merriweather;
-  font-size: 52px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: normal;
-}
-
-.sale_head p{
-  width: 800px;
-  color: rgba(7, 2, 17, 0.60);
-  text-align: center;
-  font-family: Inter;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 32px;
-  display: flex;
-}
 
 
 .offer{
@@ -359,4 +365,75 @@ body {
 
 .serprise_box{
   margin-top: -700px;
+}
+
+
+
+
+/* Portfolio */
+.port{
+  justify-content: center;
+}
+
+
+.row{
+  align-items: center;
+  display: flex;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.row2{
+  align-items: center;
+  display: flex;
+  gap: 25px;
+}
+
+.row,.row2 img{
+  border-radius: 16px;
+  
+}
+
+.img{
+  width: 420px;
+  height: 450px;
+  display: flex;
+  position: relative;
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+}
+
+.img_description{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background: #68b0c884;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  transition: 1.8s;
+}
+
+.img:hover .img_description{
+  right: 0;
+}
+
+.img_description h1{
+  line-height: 30px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 800;
+  color: white;
+  padding: 30px;
+  display: flex;
+  margin-top: 170px;
 }
